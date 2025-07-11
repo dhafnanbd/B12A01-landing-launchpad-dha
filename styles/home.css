@@ -105,3 +105,34 @@ nav{
     max-width: 400px;
     border-radius: 48px;
 }
+
+/* Productive User Section Styles */
+.prod-user-sec{
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 0 150px;
+    padding: 50px 80px;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.user-stat-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 152px;
+    margin-top: 40px;
+}
+
+.prod-user-sec h2{
+    font-size: 38px;
+}
+
+.stat h1{
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+}
+
+.stat p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
