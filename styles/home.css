@@ -35,6 +35,17 @@ body{
     transition: 0.4s;
 }
 
+.text-title{
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+}
+
+.body-text{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+
 /* Header Styles */
 header{
     background-image: url(/B12A01-landing-launchpad-dha/Assets/Hero-bg.png);
@@ -72,4 +83,25 @@ nav{
     font-weight: 700;
     color: #252432;
     margin-bottom: 37px;
+}
+
+/* Action Section Styles */
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 116px;
+}
+
+.action-section-left{
+    width: 500px;
+}
+
+.action-section-left p{
+    margin: 23px 0;
+}
+
+.action-section-right img{
+    max-width: 400px;
+    border-radius: 48px;
 }
