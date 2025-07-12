@@ -274,22 +274,6 @@ nav{
     box-sizing: border-box;
 }
 
-/* .form-container form input[type="text"],
-.form-container form input[type="email"],
-.form-container form textarea{
-    display: block;
-    font-size: 19px;
-    width: 100%;
-    padding: 20px 32px;
-    margin: 0 auto 16px;
-    background-color: white;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #D6DDED;
-    border-radius: 10px;
-    box-sizing: border-box;
-} */
-
 .form-container input[type="submit"]{
     display: block;
     width: 100%;
