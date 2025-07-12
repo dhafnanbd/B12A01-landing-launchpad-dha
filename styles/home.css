@@ -29,6 +29,8 @@ body{
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
+    transition: 0.4s;
+    transition-timing-function: ease-in-out;
 }
 
 .btn-primary:hover{
@@ -210,7 +212,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 71px 150px;
+    margin: 72px 150px;
 }
 
 .contact-section h2{
@@ -218,34 +220,34 @@ nav{
     font-weight: 700;
 }
 
-.contact-section form{
+.form-container{
     width: 500px;
 }
 
-.contact-section input[type="text"], input[type="email"], textarea{
-    display: block;
-    margin-bottom: 19px;
-    width: 500px;
-    font-size: 20px;
-    padding: 20px 32px;
-    background-color: white;
-    border-style: solid;
-    border-radius: 10px;
-    border-width: 1px;
-    border-color: #D6DDED;
-}
-
-.contact-section form label{
+.form-container label{
     display: block;
     font-size: 18px;
-    color: black;
-    margin: 0 0 10px 0;
+    margin-bottom: 10px;
 }
 
-.contact-section form label, input[type="submit"]{
+.form-container form input[type="text"],
+.form-container form input[type="email"],
+.form-container form textarea{
     display: block;
-    max-width: 500px;
-    width: 500px;
-    margin: 0 auto;
-    padding: 19px 0 19px;
+    font-size: 19px;
+    width: 100%;
+    padding: 20px 32px;
+    margin: 0 auto 16px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D6DDED;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.form-container input[type="submit"]{
+    display: block;
+    width: 100%;
+    padding: 19px 32px;
 }
